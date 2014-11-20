@@ -1,0 +1,25 @@
+Pasos de la instalación
+
+1. Seleccionar la carpeta Aplicación Becas que se encuentra dentro de la carpeta
+AplicacionBecas.
+2.Seleccionar la carpeta Debug.
+3. Seleccionar el icono SetUp.
+4. Al terminar la instalación ir a ProgramFiles(x86).
+5. Seleccionar la carpeta Default Company Name
+6. Seleccionar la carpeta aplicacion Becas
+7. Seleccionar el archivo IU.exe
+8. Modificar el String de conexión.
+9. Reemplazar el archivo anterior por el IU.exe nuevo que contiene la nueva 
+conexión del appconfig.
+10. Ingresar a la aplicación por el icono de acceso directo que se genera en el 
+escritorio.
+
+******IMPORTANTE*************
+
+usuario backi-g@hotmail.com
+contraseña 1234
+
+La primera vez que se registra el usuario dura unos segundos mientras envia
+el correo electrónico.
+
+******************************

@@ -1,0 +1,38 @@
+1-Ultimas actividades no refresca.
+
+2-El pop up crear Carrera no dice "Crear" en la esquina superior izquierda.
+
+3-El pop up crear no se esconde cuando se da click en crear.
+
+4-El popup de crear curso no tiene el formato correcto.
+
+5-El pop up de modificar curso no tiene el formato correcto.
+
+6-Cuando se modifica curso, no se tira un mensaje de confirmacion.
+
+7-Editar tipo de beca no funciona.
+8-El eliminar tipo de beca, elimina antes de que el usuario de click al boton "Aceptar".
+
+9-El crear tipo de beca se cae si no se le asigna ningún requisito o beneficio.Si la crea de todas maneras.
+
+10-El estado del tipo de beca no sale en el listar.
+
+11-No se puede consultar la bitácora de errores.
+
+12-El plan de estudio se pasa para la segunda iteración, esta incompleto.
+
+13-Error en el enviar correo, si se trata de enviar un correo con los campos vacios, muestra un mensaje de error, pero tambien uno de confirmación.
+14-AL tocar la tecla espacio la aplicacion, crea nuevos pop ups de la última seccion visitada.
+
+15-Al "ver un tipo de beca" si se da click en ver beneficio o requisito y no tiene ningunos asociados, el formato de la tabla se daña.
+
+16-Crear Tipo de beca no valida si el número total de caractéres introducidos en un campo es soportado por la base de datos.
+
+17-El popup de crear requisitos no se cierra al crear.
+
+18-El Editar beneficio NO SIRVE.
+
+19-TODOS los buscar estan malos, si se pone un nombre repetido, solo se trae el primero.
+
+20-El boton Cancelar el editar Curso NO FUNCIONA, si no se da click en "Editar" el pop up se sigue abriendo en todos los menus.
+

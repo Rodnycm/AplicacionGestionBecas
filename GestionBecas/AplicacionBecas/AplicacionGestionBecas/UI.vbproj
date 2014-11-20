@@ -1,0 +1,798 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{59E114ED-E593-438A-B226-DC0602321A71}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>UI.My.MyApplication</StartupObject>
+    <RootNamespace>UI</RootNamespace>
+    <AssemblyName>UI</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Prophet\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>UI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>UI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>B1594556F27B91CF1D22F534FAF10BC069379815</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>UI_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DB_Proyecto2DataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_Proyecto2DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB_Proyecto2DataSet2.vb">
+      <DependentUpon>DB_Proyecto2DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB_Proyecto2DataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_Proyecto2DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MenusAplicacion\UCtrlConfMessage.Designer.vb">
+      <DependentUpon>UCtrlConfMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenusAplicacion\UCtrlConfMessage.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenusAplicacion\UCtrlInstantMessage.Designer.vb">
+      <DependentUpon>UCtrlInstantMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenusAplicacion\UCtrlInstantMessage.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenusAplicacion\UCtrlUltimasActividades.Designer.vb">
+      <DependentUpon>UCtrlUltimasActividades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenusAplicacion\UCtrlUltimasActividades.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uCtrlConsultarPlanDeEstudio.Designer.vb">
+      <DependentUpon>uCtrlConsultarPlanDeEstudio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uCtrlConsultarPlanDeEstudio.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlCursos\uCtrlAsignarCursosCarrera.Designer.vb">
+      <DependentUpon>uCtrlAsignarCursosCarrera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlCursos\uCtrlAsignarCursosCarrera.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlCursos\UCtrlCrearCursos.Designer.vb">
+      <DependentUpon>UCtrlCrearCursos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlCursos\UCtrlCrearCursos.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DB_Proyecto2DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_Proyecto2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB_Proyecto2DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_Proyecto2DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB_Proyecto2DataSetConsultarRegistroAcciones.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_Proyecto2DataSetConsultarRegistroAcciones.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlRequisitos\UCtrlEliminarRequisitos.Designer.vb">
+      <DependentUpon>UCtrlEliminarRequisitos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlRequisitos\UCtrlEliminarRequisitos.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlRequisitos\UCtrlModificarRequisito.Designer.vb">
+      <DependentUpon>UCtrlModificarRequisito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlRequisitos\UCtrlModificarRequisito.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlTipoBeca\EliminarTipoBeca.Designer.vb">
+      <DependentUpon>EliminarTipoBeca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlTipoBeca\EliminarTipoBeca.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenusAplicacion\FrmIniciarSesion.Designer.vb">
+      <DependentUpon>FrmIniciarSesion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenusAplicacion\FrmIniciarSesion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenusAplicacion\frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenusAplicacion\frmPrincipal.Designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloGestor.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UCtrlTipoBeca\SeleccionarBeneficios.Designer.vb">
+      <DependentUpon>SeleccionarBeneficios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlTipoBeca\SeleccionarBeneficios.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlBeneficios\UCtrlBuscarBeneficio.Designer.vb">
+      <DependentUpon>UCtrlBuscarBeneficio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlBeneficios\UCtrlBuscarBeneficio.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlRoles\UCtrlConsultarRol.Designer.vb">
+      <DependentUpon>UCtrlConsultarRol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlRoles\UCtrlConsultarRol.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenusAplicacion\UCtrlIniciar.Designer.vb">
+      <DependentUpon>UCtrlIniciar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenusAplicacion\UCtrlIniciar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlRoles\UCntrlRegistrarRol.Designer.vb">
+      <DependentUpon>UCntrlRegistrarRol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlRoles\UCntrlRegistrarRol.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlAlerta.Designer.vb">
+      <DependentUpon>UCtrlAlerta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlAlerta.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlRequisitos\UCtrlAsignarRequisitos.Designer.vb">
+      <DependentUpon>UCtrlAsignarRequisitos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlRequisitos\UCtrlAsignarRequisitos.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlBitacoraAcciones.Designer.vb">
+      <DependentUpon>UCtrlBitacoraAcciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlBitacoraAcciones.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlCursos\UCtrlBuscarCursos.Designer.vb">
+      <DependentUpon>UCtrlBuscarCursos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlCursos\UCtrlBuscarCursos.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlTipoBeca\UCtrlBuscarTipoBeca.Designer.vb">
+      <DependentUpon>UCtrlBuscarTipoBeca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlTipoBeca\UCtrlBuscarTipoBeca.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlConfirmacion.Designer.vb">
+      <DependentUpon>UCtrlConfirmacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlConfirmacion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlBeneficios\UCtrlConsultarBeneficio.Designer.vb">
+      <DependentUpon>UCtrlConsultarBeneficio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlBeneficios\UCtrlConsultarBeneficio.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlTipoBeca\UCtrlConsultarBeneficios.Designer.vb">
+      <DependentUpon>UCtrlConsultarBeneficios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlTipoBeca\UCtrlConsultarBeneficios.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlTipoBeca\UCtrlConsultarRequisitos.Designer.vb">
+      <DependentUpon>UCtrlConsultarRequisitos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlTipoBeca\UCtrlConsultarRequisitos.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlTipoBeca\UCtrlConsultarTipoBeca.Designer.vb">
+      <DependentUpon>UCtrlConsultarTipoBeca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlTipoBeca\UCtrlConsultarTipoBeca.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlUserProfile.Designer.vb">
+      <DependentUpon>UCtrlUserProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlUserProfile.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlUsuarios\UCtrlAsignarNotasCurso.Designer.vb">
+      <DependentUpon>UCtrlAsignarNotasCurso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlUsuarios\UCtrlAsignarNotasCurso.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlUsuarios\UCtrlConsultarUsuario.Designer.vb">
+      <DependentUpon>UCtrlConsultarUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlUsuarios\UCtrlConsultarUsuario.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlCarreras\UCtrlCrearCarrera.Designer.vb">
+      <DependentUpon>UCtrlCrearCarrera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlCarreras\UCtrlCrearCarrera.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlTipoBeca\UCtrlCrearTipoBeca.Designer.vb">
+      <DependentUpon>UCtrlCrearTipoBeca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlTipoBeca\UCtrlCrearTipoBeca.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlUsuarios\UCtrlCrearUsuario.Designer.vb">
+      <DependentUpon>UCtrlCrearUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlUsuarios\UCtrlCrearUsuario.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlCursos\UCtrlCurso.Designer.vb">
+      <DependentUpon>UCtrlCurso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlCursos\UCtrlCurso.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlBeneficios\UCtrlEliminarBeneficio.Designer.vb">
+      <DependentUpon>UCtrlEliminarBeneficio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlBeneficios\UCtrlEliminarBeneficio.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlCarreras\UCtrlEliminarCarrera.Designer.vb">
+      <DependentUpon>UCtrlEliminarCarrera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlCarreras\UCtrlEliminarCarrera.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlCursos\UCtrlEliminarCurso.Designer.vb">
+      <DependentUpon>UCtrlEliminarCurso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlCursos\UCtrlEliminarCurso.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlRoles\UCtrlEliminarRol.Designer.vb">
+      <DependentUpon>UCtrlEliminarRol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlRoles\UCtrlEliminarRol.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlUsuarios\UCtrlEliminarUsuario.Designer.vb">
+      <DependentUpon>UCtrlEliminarUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlUsuarios\UCtrlEliminarUsuario.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlEmailConfiguration.Designer.vb">
+      <DependentUpon>UCtrlEmailConfiguration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlEmailConfiguration.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlRoles\UCtrlListarRol.Designer.vb">
+      <DependentUpon>UCtrlListarRol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlRoles\UCtrlListarRol.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlUsuarios\UCtrlListarYBuscarUsuario.Designer.vb">
+      <DependentUpon>UCtrlListarYBuscarUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlUsuarios\UCtrlListarYBuscarUsuario.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlCarreras\UCtrlMantenimientoCarreras.Designer.vb">
+      <DependentUpon>UCtrlMantenimientoCarreras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlCarreras\UCtrlMantenimientoCarreras.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlRequisitos\UCtrlMantenimientoCrearRequisito.Designer.vb">
+      <DependentUpon>UCtrlMantenimientoCrearRequisito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlRequisitos\UCtrlMantenimientoCrearRequisito.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlRequisitos\UCtrlMantenimientoRequisitos.Designer.vb">
+      <DependentUpon>UCtrlMantenimientoRequisitos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlRequisitos\UCtrlMantenimientoRequisitos.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenusAplicacion\UCtrlMenuAcademico.Designer.vb">
+      <DependentUpon>UCtrlMenuAcademico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenusAplicacion\UCtrlMenuAcademico.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenusAplicacion\UCtrlMenuBecas.Designer.vb">
+      <DependentUpon>UCtrlMenuBecas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenusAplicacion\UCtrlMenuBecas.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenusAplicacion\UCtrlMenuMantenimiento.Designer.vb">
+      <DependentUpon>UCtrlMenuMantenimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenusAplicacion\UCtrlMenuMantenimiento.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenusAplicacion\UCtrlMenuReportes.Designer.vb">
+      <DependentUpon>UCtrlMenuReportes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenusAplicacion\UCtrlMenuReportes.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlBeneficios\UCtrlModificarBeneficio.Designer.vb">
+      <DependentUpon>UCtrlModificarBeneficio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlBeneficios\UCtrlModificarBeneficio.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlCarreras\UCtrlModificarCarrera.Designer.vb">
+      <DependentUpon>UCtrlModificarCarrera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlCarreras\UCtrlModificarCarrera.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlCursos\UCtrlModificarCurso.Designer.vb">
+      <DependentUpon>UCtrlModificarCurso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlCursos\UCtrlModificarCurso.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlRoles\UCtrlModificarRol.Designer.vb">
+      <DependentUpon>UCtrlModificarRol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlRoles\UCtrlModificarRol.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlTipoBeca\UCtrlModificarTipoBeca.Designer.vb">
+      <DependentUpon>UCtrlModificarTipoBeca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlTipoBeca\UCtrlModificarTipoBeca.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlUsuarios\UCtrlModificarUsuario.Designer.vb">
+      <DependentUpon>UCtrlModificarUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlUsuarios\UCtrlModificarUsuario.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenusAplicacion\UCtrlRecuperarContraseña.Designer.vb">
+      <DependentUpon>UCtrlRecuperarContraseña.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenusAplicacion\UCtrlRecuperarContraseña.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlBeneficios\UCtrlRegistrarBeneficio.Designer.vb">
+      <DependentUpon>UCtrlRegistrarBeneficio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlBeneficios\UCtrlRegistrarBeneficio.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCtrlReporteRegistroAcciones.Designer.vb">
+      <DependentUpon>UCtrlReporteRegistroAcciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCtrlReporteRegistroAcciones.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MenusAplicacion\UCtrlConfMessage.resx">
+      <DependentUpon>UCtrlConfMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenusAplicacion\UCtrlInstantMessage.resx">
+      <DependentUpon>UCtrlInstantMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenusAplicacion\UCtrlUltimasActividades.resx">
+      <DependentUpon>UCtrlUltimasActividades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report4.rdlc" />
+    <EmbeddedResource Include="ReporteRoles.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uCtrlConsultarPlanDeEstudio.resx">
+      <DependentUpon>uCtrlConsultarPlanDeEstudio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlCursos\uCtrlAsignarCursosCarrera.resx">
+      <DependentUpon>uCtrlAsignarCursosCarrera.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlCursos\UCtrlCrearCursos.resx">
+      <DependentUpon>UCtrlCrearCursos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlRequisitos\UCtrlEliminarRequisitos.resx">
+      <DependentUpon>UCtrlEliminarRequisitos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlRequisitos\UCtrlModificarRequisito.resx">
+      <DependentUpon>UCtrlModificarRequisito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlTipoBeca\EliminarTipoBeca.resx">
+      <DependentUpon>EliminarTipoBeca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenusAplicacion\FrmIniciarSesion.resx">
+      <DependentUpon>FrmIniciarSesion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenusAplicacion\frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="Report3.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlTipoBeca\SeleccionarBeneficios.resx">
+      <DependentUpon>SeleccionarBeneficios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlBeneficios\UCtrlBuscarBeneficio.resx">
+      <DependentUpon>UCtrlBuscarBeneficio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlRoles\UCtrlConsultarRol.resx">
+      <DependentUpon>UCtrlConsultarRol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenusAplicacion\UCtrlIniciar.resx">
+      <DependentUpon>UCtrlIniciar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlRoles\UCntrlRegistrarRol.resx">
+      <DependentUpon>UCntrlRegistrarRol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlAlerta.resx">
+      <DependentUpon>UCtrlAlerta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlRequisitos\UCtrlAsignarRequisitos.resx">
+      <DependentUpon>UCtrlAsignarRequisitos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlBitacoraAcciones.resx">
+      <DependentUpon>UCtrlBitacoraAcciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlCursos\UCtrlBuscarCursos.resx">
+      <DependentUpon>UCtrlBuscarCursos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlTipoBeca\UCtrlBuscarTipoBeca.resx">
+      <DependentUpon>UCtrlBuscarTipoBeca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlConfirmacion.resx">
+      <DependentUpon>UCtrlConfirmacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlBeneficios\UCtrlConsultarBeneficio.resx">
+      <DependentUpon>UCtrlConsultarBeneficio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlTipoBeca\UCtrlConsultarBeneficios.resx">
+      <DependentUpon>UCtrlConsultarBeneficios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlTipoBeca\UCtrlConsultarRequisitos.resx">
+      <DependentUpon>UCtrlConsultarRequisitos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlTipoBeca\UCtrlConsultarTipoBeca.resx">
+      <DependentUpon>UCtrlConsultarTipoBeca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlUserProfile.resx">
+      <DependentUpon>UCtrlUserProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlUsuarios\UCtrlAsignarNotasCurso.resx">
+      <DependentUpon>UCtrlAsignarNotasCurso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlUsuarios\UCtrlConsultarUsuario.resx">
+      <DependentUpon>UCtrlConsultarUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlCarreras\UCtrlCrearCarrera.resx">
+      <DependentUpon>UCtrlCrearCarrera.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlTipoBeca\UCtrlCrearTipoBeca.resx">
+      <DependentUpon>UCtrlCrearTipoBeca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlUsuarios\UCtrlCrearUsuario.resx">
+      <DependentUpon>UCtrlCrearUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlCursos\UCtrlCurso.resx">
+      <DependentUpon>UCtrlCurso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlBeneficios\UCtrlEliminarBeneficio.resx">
+      <DependentUpon>UCtrlEliminarBeneficio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlCarreras\UCtrlEliminarCarrera.resx">
+      <DependentUpon>UCtrlEliminarCarrera.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlCursos\UCtrlEliminarCurso.resx">
+      <DependentUpon>UCtrlEliminarCurso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlRoles\UCtrlEliminarRol.resx">
+      <DependentUpon>UCtrlEliminarRol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlUsuarios\UCtrlEliminarUsuario.resx">
+      <DependentUpon>UCtrlEliminarUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlEmailConfiguration.resx">
+      <DependentUpon>UCtrlEmailConfiguration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlRoles\UCtrlListarRol.resx">
+      <DependentUpon>UCtrlListarRol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlUsuarios\UCtrlListarYBuscarUsuario.resx">
+      <DependentUpon>UCtrlListarYBuscarUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlCarreras\UCtrlMantenimientoCarreras.resx">
+      <DependentUpon>UCtrlMantenimientoCarreras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlRequisitos\UCtrlMantenimientoCrearRequisito.resx">
+      <DependentUpon>UCtrlMantenimientoCrearRequisito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlRequisitos\UCtrlMantenimientoRequisitos.resx">
+      <DependentUpon>UCtrlMantenimientoRequisitos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenusAplicacion\UCtrlMenuAcademico.resx">
+      <DependentUpon>UCtrlMenuAcademico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenusAplicacion\UCtrlMenuBecas.resx">
+      <DependentUpon>UCtrlMenuBecas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenusAplicacion\UCtrlMenuMantenimiento.resx">
+      <DependentUpon>UCtrlMenuMantenimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenusAplicacion\UCtrlMenuReportes.resx">
+      <DependentUpon>UCtrlMenuReportes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlBeneficios\UCtrlModificarBeneficio.resx">
+      <DependentUpon>UCtrlModificarBeneficio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlCarreras\UCtrlModificarCarrera.resx">
+      <DependentUpon>UCtrlModificarCarrera.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlCursos\UCtrlModificarCurso.resx">
+      <DependentUpon>UCtrlModificarCurso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlRoles\UCtrlModificarRol.resx">
+      <DependentUpon>UCtrlModificarRol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlTipoBeca\UCtrlModificarTipoBeca.resx">
+      <DependentUpon>UCtrlModificarTipoBeca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlUsuarios\UCtrlModificarUsuario.resx">
+      <DependentUpon>UCtrlModificarUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenusAplicacion\UCtrlRecuperarContraseña.resx">
+      <DependentUpon>UCtrlRecuperarContraseña.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlBeneficios\UCtrlRegistrarBeneficio.resx">
+      <DependentUpon>UCtrlRegistrarBeneficio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCtrlReporteRegistroAcciones.resx">
+      <DependentUpon>UCtrlReporteRegistroAcciones.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_Proyecto2DataSet.xsc">
+      <DependentUpon>DB_Proyecto2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB_Proyecto2DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_Proyecto2DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_Proyecto2DataSet.xss">
+      <DependentUpon>DB_Proyecto2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB_Proyecto2DataSet1.xsc">
+      <DependentUpon>DB_Proyecto2DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DB_Proyecto2DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_Proyecto2DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_Proyecto2DataSet1.xss">
+      <DependentUpon>DB_Proyecto2DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DB_Proyecto2DataSet2.xsc">
+      <DependentUpon>DB_Proyecto2DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DB_Proyecto2DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_Proyecto2DataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_Proyecto2DataSet2.xss">
+      <DependentUpon>DB_Proyecto2DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DB_Proyecto2DataSet3.xsc">
+      <DependentUpon>DB_Proyecto2DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DB_Proyecto2DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_Proyecto2DataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_Proyecto2DataSet3.xss">
+      <DependentUpon>DB_Proyecto2DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DB_Proyecto2DataSetConsultarRegistroAcciones.xsc">
+      <DependentUpon>DB_Proyecto2DataSetConsultarRegistroAcciones.xsd</DependentUpon>
+    </None>
+    <None Include="DB_Proyecto2DataSetConsultarRegistroAcciones.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_Proyecto2DataSetConsultarRegistroAcciones.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_Proyecto2DataSetConsultarRegistroAcciones.xss">
+      <DependentUpon>DB_Proyecto2DataSetConsultarRegistroAcciones.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UI_ClaveTemporal.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{91dfe6ab-6f17-4c5b-99fe-a59ee82e76ee}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EntitiesLayer\EntitiesLayer.csproj">
+      <Project>{a4bca628-fabe-4669-bd1f-dd99f26d9b68}</Project>
+      <Name>EntitiesLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablaFinalMedianaAzul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablaFinalGrandeAzul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrarMorado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.1 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

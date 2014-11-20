@@ -1,0 +1,14 @@
+-Cursos, Carreras, Beneficios: No muestra un mensaje cuando los objetos estan nulos.
+-Si al nombre de los roles se le ponen números, deja que se ingresen.
+-Carreras: No refresca muestra pop up de alerta cuando se ha registrado.
+-Tipo de beca no edita.
+-Casos de uso que falta: 
+	Registrar error: Valeria,
+	consultar bitácora de error:Mría Jesús, 
+	asignar cursos a una carrera: María Jesús, 
+	asignar notas a una carrera: María Jesús.
+
+-Caídas:
+En el crear beca se debe asignar un beneficio y un requisito obligatoriamente: María Jesús
+
+

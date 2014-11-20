@@ -1,0 +1,168 @@
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\bin\Debug\UI.exe.config
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\bin\Debug\UI.exe.manifest
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\bin\Debug\UI.application
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\bin\Debug\UI.exe
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\bin\Debug\UI.pdb
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\bin\Debug\UI.xml
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\bin\Debug\BLL.dll
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\bin\Debug\EntitiesLayer.dll
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\bin\Debug\DAL.dll
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\bin\Debug\TIL.dll
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\bin\Debug\EASendMail45.dll
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\bin\Debug\BLL.pdb
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\bin\Debug\EntitiesLayer.pdb
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\bin\Debug\DAL.pdb
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\bin\Debug\TIL.pdb
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.vbprojResolveAssemblyReference.cache
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlConfMessage.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlInstantMessage.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlUltimasActividades.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlConsultarPlanDeEstudio.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlAsignarCursosCarrera.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlCrearCursos.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlEliminarRequisitos.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlModificarRequisito.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.EliminarTipoBeca.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.FrmIniciarSesion.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.frmPrincipal.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.Resources.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.SeleccionarBeneficios.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCntrlBuscarBeneficio.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCntrlConsultarRol.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlIniciar.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCntrlRegistrarRol.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UctrlAlerta.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlAsignarRequisitos.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlBitacoraAcciones.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlBuscarCursos.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlBuscarTipoBeca.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlConfirmacion.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlConsultarBeneficio.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlConsultarBeneficios.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlConsultarRequisitos.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlConsultarTipoBeca.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlUserProfile.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlAsignarNotasCurso.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlConsultarUsuario.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlCrearCarrera.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlCrearTipoBeca.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UctrlCrearUsuario.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlCurso.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlEliminarBeneficio.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlEliminarCarrera.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlEliminarCurso.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlEliminarRol.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UctrlEliminarUsuario.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UctrlEmailConfiguration.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlListarRol.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UctrlListarYBuscarUsuario.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlMantenimientoCarreras.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlMantenimientoCrearRequisito.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlMantenimientoRequisitos.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlMenuAcademico.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlMenuBecas.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlMenuMantenimiento.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlMenuReportes.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlModificarBeneficio.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlModificarCarrera.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlModificarCurso.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlModificarRol.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlModificarTipoBeca.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UctrlModificarUsuario.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UctrlRecuperarContraseña.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlRegistrarBeneficio.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlReporteRegistroAcciones.resources
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.vbproj.GenerateResource.Cache
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\RdlCompile.cache
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\RdlCompile.compiled
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.exe.manifest
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.application
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.exe
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.xml
+C:\Users\Rodny Castro\Documents\GitHub\AplicacionBecasFinal\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.pdb
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\bin\Debug\UI.exe.config
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\bin\Debug\UI.exe.manifest
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\bin\Debug\UI.application
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\bin\Debug\UI.exe
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\bin\Debug\UI.pdb
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\bin\Debug\UI.xml
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\bin\Debug\BLL.dll
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\bin\Debug\EntitiesLayer.dll
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\bin\Debug\DAL.dll
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\bin\Debug\TIL.dll
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\bin\Debug\EASendMail45.dll
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\bin\Debug\BLL.pdb
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\bin\Debug\EntitiesLayer.pdb
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\bin\Debug\DAL.pdb
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\bin\Debug\TIL.pdb
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.vbprojResolveAssemblyReference.cache
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlConfMessage.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlInstantMessage.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlUltimasActividades.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlConsultarPlanDeEstudio.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlAsignarCursosCarrera.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlCrearCursos.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlEliminarRequisitos.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlModificarRequisito.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.EliminarTipoBeca.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.FrmIniciarSesion.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.frmPrincipal.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.Resources.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.SeleccionarBeneficios.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCntrlBuscarBeneficio.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCntrlConsultarRol.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlIniciar.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCntrlRegistrarRol.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UctrlAlerta.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlAsignarRequisitos.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlBitacoraAcciones.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlBuscarCursos.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlBuscarTipoBeca.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlConfirmacion.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlConsultarBeneficio.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlConsultarBeneficios.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlConsultarRequisitos.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlConsultarTipoBeca.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlUserProfile.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlAsignarNotasCurso.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlConsultarUsuario.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlCrearCarrera.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlCrearTipoBeca.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UctrlCrearUsuario.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlCurso.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlEliminarBeneficio.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlEliminarCarrera.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlEliminarCurso.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlEliminarRol.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UctrlEliminarUsuario.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UctrlEmailConfiguration.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlListarRol.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UctrlListarYBuscarUsuario.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlMantenimientoCarreras.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlMantenimientoCrearRequisito.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlMantenimientoRequisitos.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlMenuAcademico.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlMenuBecas.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlMenuMantenimiento.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlMenuReportes.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlModificarBeneficio.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlModificarCarrera.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UCtrlModificarCurso.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlModificarRol.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlModificarTipoBeca.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UctrlModificarUsuario.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.UctrlRecuperarContraseña.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlRegistrarBeneficio.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.uCtrlReporteRegistroAcciones.resources
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.vbproj.GenerateResource.Cache
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\RdlCompile.cache
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\RdlCompile.compiled
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.exe.manifest
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.application
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.exe
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.xml
+C:\Users\Prophet\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.pdb
+C:\Users\backi_000\Desktop\AplicacionBecas\AplicacionGestionBecas\bin\Debug\UI.exe.config
+C:\Users\backi_000\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.exe
+C:\Users\backi_000\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.xml
+C:\Users\backi_000\Desktop\AplicacionBecas\AplicacionGestionBecas\obj\Debug\UI.pdb

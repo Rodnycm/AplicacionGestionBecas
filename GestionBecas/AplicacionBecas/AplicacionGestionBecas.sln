@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UI", "AplicacionGestionBecas\UI.vbproj", "{59E114ED-E593-438A-B226-DC0602321A71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{91DFE6AB-6F17-4C5B-99FE-A59EE82E76EE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9317EFC-F916-4E00-92A0-3EDC370D6FEA} = {D9317EFC-F916-4E00-92A0-3EDC370D6FEA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitiesLayer", "EntitiesLayer\EntitiesLayer.csproj", "{A4BCA628-FABE-4669-BD1F-DD99F26D9B68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{16AC6C97-A943-4802-8884-E0CE0D32F208}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIL", "TIL\TIL.csproj", "{D9317EFC-F916-4E00-92A0-3EDC370D6FEA}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Aplicacion Becas", "Aplicacion Becas\Aplicacion Becas.vdproj", "{B795E09D-F01D-4945-8FC9-951DEB79C7D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59E114ED-E593-438A-B226-DC0602321A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E114ED-E593-438A-B226-DC0602321A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E114ED-E593-438A-B226-DC0602321A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E114ED-E593-438A-B226-DC0602321A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DFE6AB-6F17-4C5B-99FE-A59EE82E76EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DFE6AB-6F17-4C5B-99FE-A59EE82E76EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DFE6AB-6F17-4C5B-99FE-A59EE82E76EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DFE6AB-6F17-4C5B-99FE-A59EE82E76EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4BCA628-FABE-4669-BD1F-DD99F26D9B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4BCA628-FABE-4669-BD1F-DD99F26D9B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4BCA628-FABE-4669-BD1F-DD99F26D9B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4BCA628-FABE-4669-BD1F-DD99F26D9B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16AC6C97-A943-4802-8884-E0CE0D32F208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16AC6C97-A943-4802-8884-E0CE0D32F208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16AC6C97-A943-4802-8884-E0CE0D32F208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16AC6C97-A943-4802-8884-E0CE0D32F208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9317EFC-F916-4E00-92A0-3EDC370D6FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9317EFC-F916-4E00-92A0-3EDC370D6FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9317EFC-F916-4E00-92A0-3EDC370D6FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9317EFC-F916-4E00-92A0-3EDC370D6FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B795E09D-F01D-4945-8FC9-951DEB79C7D5}.Debug|Any CPU.ActiveCfg = Debug
+		{B795E09D-F01D-4945-8FC9-951DEB79C7D5}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

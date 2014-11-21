@@ -93,7 +93,7 @@ namespace DAL.Repositories
 
                     foreach (DataRow dr in ds.Tables[0].Rows)
                     {
-                        int rol = Convert.ToInt32(dr["Fk_Tb_Roles_Tb_Usuarios_IdRol"]);
+                        int rol = Convert.ToInt32(dr["IdRol"]);
 
                         rolUsuario = RolRepository.Instance.GetById(rol);
                         Usuario objUsuario = new Usuario
@@ -110,7 +110,7 @@ namespace DAL.Repositories
                             correoElectronico = dr["CorreoElectronico"].ToString(),
                             contraseña = dr["Contraseña"].ToString()
                         };
-                        objUsuario.Id = Convert.ToInt32(dr["id"]);
+                        objUsuario.Id = Convert.ToInt32(dr["IdUsuario"]);
                         pusuario.Add(objUsuario);
                     }
                 }
@@ -173,7 +173,7 @@ namespace DAL.Repositories
                 if (ds.Tables[0].Rows.Count > 0)
                 {
                     var dr = ds.Tables[0].Rows[0];
-                    int rol = Convert.ToInt32(dr["Fk_Tb_Roles_Tb_Usuarios_IdRol"]);
+                    int rol = Convert.ToInt32(dr["IdRol"]);
 
                     rolUsuario = RolRepository.Instance.GetById(rol);
                     objUsuario = new Usuario
@@ -190,7 +190,7 @@ namespace DAL.Repositories
                         correoElectronico = dr["CorreoElectronico"].ToString(),
                         contraseña = dr["Contraseña"].ToString(),
                     };
-                    objUsuario.Id = Convert.ToInt32(dr["id"]);
+                    objUsuario.Id = Convert.ToInt32(dr["IdUsuario"]);
                 }
                 return objUsuario;
             
@@ -228,7 +228,7 @@ namespace DAL.Repositories
 
                     foreach (DataRow dr in ds.Tables[0].Rows)
                     {
-                        int rol = Convert.ToInt32(dr["Fk_Tb_Roles_Tb_Usuarios_IdRol"]);
+                        int rol = Convert.ToInt32(dr["IdRol"]);
 
                         rolUsuario = RolRepository.Instance.GetById(rol);
                         Usuario objUsuario = new Usuario
@@ -245,7 +245,7 @@ namespace DAL.Repositories
                             correoElectronico = dr["CorreoElectronico"].ToString(),
                             contraseña = dr["Contraseña"].ToString()
                         };
-                        objUsuario.Id = Convert.ToInt32(dr["id"]);
+                        objUsuario.Id = Convert.ToInt32(dr["IdUsuario"]);
                         pusuario.Add(objUsuario);
 
                     }
@@ -483,7 +483,7 @@ namespace DAL.Repositories
                 if (ds.Tables[0].Rows.Count > 0)
                 {
                     var dr = ds.Tables[0].Rows[0];
-                    int rol = Convert.ToInt32(dr["Fk_Tb_Roles_Tb_Usuarios_IdRol"]);
+                    int rol = Convert.ToInt32(dr["IdRol"]);
 
                     rolUsuario = RolRepository.Instance.GetById(rol);
                     objUsuario = new Usuario
@@ -500,7 +500,7 @@ namespace DAL.Repositories
                         correoElectronico = dr["CorreoElectronico"].ToString(),
                         contraseña = dr["Contraseña"].ToString(),
                     };
-                    objUsuario.Id = Convert.ToInt32(dr["id"]);
+                    objUsuario.Id = Convert.ToInt32(dr["IdUsuario"]);
                 }
                 return objUsuario;
             

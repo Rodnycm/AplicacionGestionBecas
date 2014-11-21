@@ -26,3 +26,17 @@ C:\Users\Prophet\Desktop\AplicacionBecas\BLL\obj\Debug\BLL.Properties.Resources.
 C:\Users\Prophet\Desktop\AplicacionBecas\BLL\obj\Debug\BLL.csproj.GenerateResource.Cache
 C:\Users\Prophet\Desktop\AplicacionBecas\BLL\obj\Debug\BLL.dll
 C:\Users\Prophet\Desktop\AplicacionBecas\BLL\obj\Debug\BLL.pdb
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\BLL\bin\Debug\BLL.dll
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\BLL\bin\Debug\BLL.pdb
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\BLL\bin\Debug\DAL.dll
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\BLL\bin\Debug\EntitiesLayer.dll
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\BLL\bin\Debug\TIL.dll
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\BLL\bin\Debug\EASendMail45.dll
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\BLL\bin\Debug\DAL.pdb
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\BLL\bin\Debug\EntitiesLayer.pdb
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\BLL\bin\Debug\TIL.pdb
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\BLL\obj\Debug\BLL.Properties.Resources.resources
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\BLL\obj\Debug\BLL.csproj.GenerateResource.Cache
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\BLL\obj\Debug\BLL.dll
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\BLL\obj\Debug\BLL.pdb

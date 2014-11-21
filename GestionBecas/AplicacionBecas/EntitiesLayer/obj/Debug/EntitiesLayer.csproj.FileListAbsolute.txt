@@ -10,3 +10,8 @@ C:\Users\Prophet\Desktop\AplicacionBecas\EntitiesLayer\bin\Debug\EASendMail45.dl
 C:\Users\Prophet\Desktop\AplicacionBecas\EntitiesLayer\obj\Debug\EntitiesLayer.csprojResolveAssemblyReference.cache
 C:\Users\Prophet\Desktop\AplicacionBecas\EntitiesLayer\obj\Debug\EntitiesLayer.dll
 C:\Users\Prophet\Desktop\AplicacionBecas\EntitiesLayer\obj\Debug\EntitiesLayer.pdb
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\EntitiesLayer\bin\Debug\EntitiesLayer.dll
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\EntitiesLayer\bin\Debug\EntitiesLayer.pdb
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\EntitiesLayer\obj\Debug\EntitiesLayer.csprojResolveAssemblyReference.cache
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\EntitiesLayer\obj\Debug\EntitiesLayer.dll
+C:\Users\backi_000\Documents\GitHub\AplicacionGestionBecas\GestionBecas\AplicacionBecas\EntitiesLayer\obj\Debug\EntitiesLayer.pdb
